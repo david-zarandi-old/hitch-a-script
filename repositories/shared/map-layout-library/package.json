@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json.schemastore.org/package",
+  "name": "@shared/map-layout-library",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "private": true,
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "dependencies": {
+    "@shared/rng-library": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.2",
+    "jest": "^29.5.0",
+    "ts-jest": "^29.1.0",
+    "typescript": "^5.1.3"
+  }
+}
