@@ -45,6 +45,13 @@ const mockRandomGenerator = {
 const result = generateRivers(5, 5, { roads: [], rivers: [], buildings: [], parks: [] }, mockRandomGenerator);
 
 console.log(result);
+//  [
+//    { x: 0, y: 0 },
+//    { x: 0, y: 1 },
+//    { x: 0, y: 2 },
+//    { x: 0, y: 3 },
+//    { x: 0, y: 4 }
+//  ]
 ```
 
 In the example above, the `generateRivers` function is called with a 5x5 grid and a `randomGenerator` that makes the
